@@ -1,0 +1,1 @@
+../../../DribbbleSDK/DribbbleSDK/Client/DRApiClientSettings.h

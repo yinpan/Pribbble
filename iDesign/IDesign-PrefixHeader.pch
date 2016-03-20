@@ -1,0 +1,22 @@
+//
+//  IDesign-PrefixHeader.pch
+//  iDesign
+//
+//  Created by 千锋 on 16/2/25.
+//  Copyright (c) 2016年 yinpans. All rights reserved.
+//
+
+#ifndef iDesign_IDesign_PrefixHeader_pch
+#define iDesign_IDesign_PrefixHeader_pch
+
+#import "DribbbleAPI.h"
+#import "UtilHeader.h"
+#import "YPClientManager.h"
+#import <DRApiClient.h>
+#import "YPApiClient.h"
+#import <SVProgressHUD.h>
+
+//打印输出
+#define NSLog(FORMAT, ...) fprintf(stderr,"%s:%d  \t%s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+
+#endif

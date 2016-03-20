@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CELL" rowHeight="87" id="KGk-i7-Jjw" customClass="YPShotCommentCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="87"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="86"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x1G-Hv-dmn">
+                        <rect key="frame" x="57" y="15" width="303" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="Xjr-Sm-vUf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cnI-4p-YHy" customClass="YPCommentBodyView">
+                        <rect key="frame" x="57" y="43" width="303" height="28"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5dm-yI-fa9">
+                        <rect key="frame" x="17" y="15" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="TCw-SA-UBX"/>
+                            <constraint firstAttribute="width" constant="25" id="p3V-Cc-pwf"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="5dm-yI-fa9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="0hY-RM-GQf"/>
+                    <constraint firstItem="x1G-Hv-dmn" firstAttribute="leading" secondItem="cnI-4p-YHy" secondAttribute="leading" id="6jq-kV-ydR"/>
+                    <constraint firstAttribute="bottom" secondItem="cnI-4p-YHy" secondAttribute="bottom" constant="15" id="HSc-dS-Uho"/>
+                    <constraint firstItem="x1G-Hv-dmn" firstAttribute="leading" secondItem="5dm-yI-fa9" secondAttribute="trailing" constant="15" id="IBJ-5M-CH0"/>
+                    <constraint firstAttribute="trailing" secondItem="cnI-4p-YHy" secondAttribute="trailing" constant="15" id="evp-Vt-bT3"/>
+                    <constraint firstAttribute="trailing" secondItem="x1G-Hv-dmn" secondAttribute="trailing" constant="15" id="hJN-ys-uOF"/>
+                    <constraint firstItem="5dm-yI-fa9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="17" id="kpb-OS-6Ta"/>
+                    <constraint firstItem="x1G-Hv-dmn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="yCG-Xp-VEs"/>
+                    <constraint firstItem="cnI-4p-YHy" firstAttribute="top" secondItem="x1G-Hv-dmn" secondAttribute="bottom" constant="8" id="ySB-ig-hOQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="commentBodyView" destination="cnI-4p-YHy" id="AKd-wJ-DXX"/>
+                <outlet property="playerImageView" destination="5dm-yI-fa9" id="u7Y-IB-HWU"/>
+                <outlet property="playerNameLabel" destination="x1G-Hv-dmn" id="bjn-kc-3ud"/>
+            </connections>
+            <point key="canvasLocation" x="483" y="175.5"/>
+        </tableViewCell>
+    </objects>
+</document>

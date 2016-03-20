@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YPOAuth2Controller">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webView" destination="VOa-WE-yM8" id="drp-sc-SOJ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VOa-WE-yM8">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="8Nz-dI-LBn"/>
+                    </connections>
+                </webView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="VOa-WE-yM8" secondAttribute="trailing" id="47b-dT-5ie"/>
+                <constraint firstAttribute="bottom" secondItem="VOa-WE-yM8" secondAttribute="bottom" id="Kqy-dC-nUq"/>
+                <constraint firstItem="VOa-WE-yM8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="hiB-Bj-bqx"/>
+                <constraint firstItem="VOa-WE-yM8" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="lUM-ar-ABw"/>
+            </constraints>
+            <point key="canvasLocation" x="303" y="102"/>
+        </view>
+    </objects>
+</document>
