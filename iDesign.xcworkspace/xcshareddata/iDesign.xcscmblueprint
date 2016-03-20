@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "48EAFB0307BA795C8C61C3C555B94880C8ECE6BB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "188933C24A05F3003BE2361002422785E8874507" : 0,
+    "48EAFB0307BA795C8C61C3C555B94880C8ECE6BB" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "825D7D45-16DD-4221-8538-3FB7225FAB2E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "188933C24A05F3003BE2361002422785E8874507" : "iDesign",
+    "48EAFB0307BA795C8C61C3C555B94880C8ECE6BB" : "Pribbble\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iDesign",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iDesign.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.coding.net\/yinpans\/iDesign.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "188933C24A05F3003BE2361002422785E8874507"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yinpan\/Pribbble.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "48EAFB0307BA795C8C61C3C555B94880C8ECE6BB"
+    }
+  ]
+}
