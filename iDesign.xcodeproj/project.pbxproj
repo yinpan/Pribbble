@@ -783,7 +783,7 @@
 				TargetAttributes = {
 					BC2FC5FD1C7F052D00F7598A = {
 						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = XS7T2E96K5;
+						DevelopmentTeam = F3ZCSW6X45;
 					};
 					BC2FC6161C7F052D00F7598A = {
 						CreatedOnToolsVersion = 6.4;
@@ -1028,8 +1028,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Hao LUO (F3ZCSW6X45)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hao LUO (F3ZCSW6X45)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1052,7 +1052,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "9820e256-a084-4b00-bfb4-a100794db26e";
+				PROVISIONING_PROFILE = "682cee9a-77a0-4b41-8e3a-0d70548c4e22";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1074,8 +1074,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Hao LUO (F3ZCSW6X45)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hao LUO (F3ZCSW6X45)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -1090,7 +1090,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "9820e256-a084-4b00-bfb4-a100794db26e";
+				PROVISIONING_PROFILE = "682cee9a-77a0-4b41-8e3a-0d70548c4e22";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1108,7 +1108,7 @@
 				INFOPLIST_FILE = iDesign/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yinpans.pribbble1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yinpans.pribbble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1128,7 +1128,7 @@
 				INFOPLIST_FILE = iDesign/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yinpans.pribbble1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yinpans.pribbble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;

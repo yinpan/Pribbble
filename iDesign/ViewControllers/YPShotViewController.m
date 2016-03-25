@@ -115,6 +115,7 @@ static NSString * const kCellReuseIdentifier = @"CELL";
     [view addGestureRecognizer:tap];
     [self.view addSubview:view];
     
+    
     _playerImageView = [[UIImageView alloc] initWithFrame:CGRectMake(15, 15, 50, 50)];
     _playerImageView.layer.cornerRadius = 5;
     _playerImageView.clipsToBounds = YES;
@@ -139,10 +140,13 @@ static NSString * const kCellReuseIdentifier = @"CELL";
 
 - (void)createUI
 {
+    
     self.title = @"Shot";
+//
+//    
+//    self.navigationItem.rightBarButtonItem = [YPFactory createBarButtonItemWithImageName:@"write_comment" target:self action:@selector(writeComment)];
     
-    
-    self.navigationItem.rightBarButtonItem = [YPFactory createBarButtonItemWithImageName:@"write_comment" target:self action:@selector(writeComment)];
+    self.navigationItem.rightBarButtonItem = [YPFactory createBarButtonItemWithImageName:@"globe" target:self action:@selector(showInWeb)];
     
     self.view.backgroundColor = [UIColor themeWhiteColor];
     if ([_shot.attachmentsCount intValue]) {
@@ -323,17 +327,19 @@ static NSString * const kCellReuseIdentifier = @"CELL";
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if ([[YPFactory shareApiClient] isUserAuthorized]) {
-        YPShotCommentCell *cell = (id)[tableView cellForRowAtIndexPath:indexPath];
-        cell.selected = NO;
-        self.commentView.commentId = cell.model.commentId;
-        self.commentView.userAccount = cell.model.user.name;
-        [self.commentView up];
-        [self tableviewChangeFrame];
-        [self.commentView.textField becomeFirstResponder];
-    }else{
-        [SVProgressHUD showInfoWithStatus:@"No Account!"];
-    }
+//    if ([[YPFactory shareApiClient] isUserAuthorized]) {
+//        YPShotCommentCell *cell = (id)[tableView cellForRowAtIndexPath:indexPath];
+//        cell.selected = NO;
+//        self.commentView.commentId = cell.model.commentId;
+//        self.commentView.userAccount = cell.model.user.name;
+//        [self.commentView up];
+//        [self tableviewChangeFrame];
+//        [self.commentView.textField becomeFirstResponder];
+//    }else{
+//        [SVProgressHUD showInfoWithStatus:@"No Account!"];
+//    }
+    YPShotCommentCell *cell = (id)[tableView cellForRowAtIndexPath:indexPath];
+    cell.selected = NO;
 }
 
 
@@ -546,7 +552,11 @@ static NSString * const kCellReuseIdentifier = @"CELL";
     }
 }
 
-
+- (void)showInWeb
+{
+    NSLog(@"%@",_shot);
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:_shot.htmlUrl]];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
