@@ -132,7 +132,9 @@
     for (int i = 0 ; i < array.count; i++) {
         DRShotAttachment *atta = array[i];
         YPImageButton *button = [[YPImageButton alloc] initWithFrame:CGRectMake(20 + i*(80+20) , 15, 80, 60)];
-        button.url = atta.url;
+        if (![atta isKindOfClass:[NSNull class]]){
+            button.url = atta.url;
+        }
         UIImageView *buttonImageView = [[UIImageView alloc] init];
         [buttonImageView sd_setImageWithURL:[NSURL URLWithString:atta.thumbnailUrl] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
             [button setImage:buttonImageView.image forState:UIControlStateNormal];

@@ -81,6 +81,14 @@
 
 - (void)loadAcountInfoWithUser:(DRUser *)user
 {
+    
+}
+
+- (void)dealloc
+{
+    if([_timer isValid]){
+        [_timer invalidate];
+    }
 }
 
 - (void)didReceiveMemoryWarning {

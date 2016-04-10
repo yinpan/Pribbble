@@ -88,7 +88,7 @@ static NSString * const kCellReuseIdentifier = @"CELL";
         _commentView.avatarImageView.image = [UIImage imageWithData:[YPFactory userDefaultsObjectForKey:KEY_USER_AVATAR]];
         _commentView.textField.delegate = self;
         _commentView.delegate = self;
-        [self.view addSubview:_commentView];
+//        [self.view addSubview:_commentView];
     }
     return _commentView;
 }
