@@ -2,13 +2,15 @@
 //  AppDelegate.m
 //  iDesign
 //
-//  Created by 千锋 on 16/2/25.
+//  Created by Yinpan on 16/2/25.
 //  Copyright (c) 2016年 yinpans. All rights reserved.
 //
 
 #import "AppDelegate.h"
 #import "YPTabBarViewController.h"
 #import "YPWelcomeViewController.h"
+
+#import <Flurry.h>
 
 @interface AppDelegate ()
 
@@ -43,12 +45,14 @@
     
     _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     _window.backgroundColor = [UIColor whiteColor];
-
     _window.rootViewController = [[YPTabBarViewController alloc] init];
     
+    [Flurry startSession:@"9SPXFPCYKNYKFWXYNMQS"];
     [_window makeKeyAndVisible];
+    
+    
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
-    NSLog(@"%@",NSHomeDirectory());
+    
     return YES;
 }
 

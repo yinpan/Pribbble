@@ -34,7 +34,7 @@ void DRLog(NSString *format, ...) {
 
 @interface DRApiClient ()
 
-
+@property (strong, nonatomic) NSString *accessToken;
 @property (strong, nonatomic) DROAuthManager *oauthManager;
 
 

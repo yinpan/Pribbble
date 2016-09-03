@@ -18,9 +18,8 @@ extern void DRLog(NSString *format, ...);
 @property (strong, nonatomic, readonly) DRApiClientSettings *settings;
 @property (nonatomic, readonly, getter=isUserAuthorized) BOOL userAuthorized;
 @property (strong, nonatomic) AFHTTPRequestOperationManager *apiManager;
-@property (strong, nonatomic) NSString *accessToken;
-@property (copy, nonatomic) DRErrorHandler defaultErrorHandler;
 
+@property (copy, nonatomic) DRErrorHandler defaultErrorHandler;
 
 - (instancetype)initWithSettings:(DRApiClientSettings *)settings;
 
@@ -114,6 +113,5 @@ extern void DRLog(NSString *format, ...);
 - (void)deleteBucket:(NSNumber *)bucketId params:(NSDictionary *)params responseHandler:(DRResponseHandler)responseHandler;
 
 - (void)logout;
-
 
 @end

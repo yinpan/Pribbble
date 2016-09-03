@@ -2,7 +2,7 @@
 //  YPShotsTableViewCell.m
 //  iDesign
 //
-//  Created by 千锋 on 16/2/29.
+//  Created by Yinpan on 16/2/29.
 //  Copyright (c) 2016年 yinpans. All rights reserved.
 //
 

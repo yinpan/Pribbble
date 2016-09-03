@@ -2,7 +2,7 @@
 //  YPFactory.m
 //  iDesign
 //
-//  Created by 千锋 on 16/2/25.
+//  Created by Yinpan on 16/2/25.
 //  Copyright (c) 2016年 yinpans. All rights reserved.
 //
 

@@ -2,7 +2,7 @@
 //  AFHTTPSessionManager+Util.h
 //  MyLimitFree
 //
-//  Created by 千锋 on 16/2/15.
+//  Created by Yinpan on 16/2/15.
 //  Copyright (c) 2016年 yinpans. All rights reserved.
 //
 

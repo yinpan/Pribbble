@@ -2,7 +2,7 @@
 //  YPShowShotViewController.m
 //  iDesign
 //
-//  Created by 千锋 on 16/3/7.
+//  Created by Yinpan on 16/3/7.
 //  Copyright © 2016年 yinpans. All rights reserved.
 //
 

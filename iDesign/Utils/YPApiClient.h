@@ -2,7 +2,7 @@
 //  YPApiClient.h
 //  iDesign
 //
-//  Created by 千锋 on 16/3/6.
+//  Created by Yinpan on 16/3/6.
 //  Copyright © 2016年 yinpans. All rights reserved.
 //
 

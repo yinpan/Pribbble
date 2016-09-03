@@ -2,7 +2,7 @@
 //  UIFont+Util.m
 //  iDesign
 //
-//  Created by 千锋 on 16/2/26.
+//  Created by Yinpan on 16/2/26.
 //  Copyright (c) 2016年 yinpans. All rights reserved.
 //
 

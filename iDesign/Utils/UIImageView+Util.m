@@ -2,7 +2,7 @@
 //  UIImageView+Util.m
 //  MyLimitFree
 //
-//  Created by 千锋 on 16/2/16.
+//  Created by Yinpan on 16/2/16.
 //  Copyright (c) 2016年 yinpans. All rights reserved.
 //
 
