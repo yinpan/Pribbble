@@ -5,6 +5,7 @@
 //  Created by Yinpan on 16/2/25.
 //  Copyright (c) 2016年 yinpans. All rights reserved.
 //
+//  添加git代码托管测试信息
 
 #import "AppDelegate.h"
 #import "YPTabBarViewController.h"
