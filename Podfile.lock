@@ -35,13 +35,13 @@ PODS:
   - BlocksKit/UIKit (2.2.5):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
+  - Bugly (2.3.1)
   - DateTools (1.7.0)
   - DribbbleSDK (0.0.3):
     - AFNetworking (~> 2.3)
     - BlocksKit
     - JSONModel
     - NXOAuth2Client
-  - Flurry-iOS-SDK/FlurrySDK (7.6.4)
   - JSONModel (1.0.2)
   - MJRefresh (3.1.9)
   - NXOAuth2Client (1.2.8)
@@ -53,9 +53,9 @@ PODS:
   - YLGIFImage (0.11)
 
 DEPENDENCIES:
+  - Bugly
   - DateTools
   - DribbbleSDK
-  - Flurry-iOS-SDK/FlurrySDK
   - JSONModel (~> 1.0.0)
   - MJRefresh
   - SDWebImage
@@ -66,9 +66,9 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  Bugly: c8ece2fa5bdcb404abdd0e07131e8129f580d893
   DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
   DribbbleSDK: cfcecbe6d73254d4abda6780fa4ea1beb8f2c877
-  Flurry-iOS-SDK: 9da972687d3af9f48038dcd86eae9cad3acca456
   JSONModel: 6ffcb4ffa3659c9e9a2e5d45d6c7705bab187c03
   MJRefresh: c5f1f1653e5a1b932c90f78074f2bc86f3f9bd5e
   NXOAuth2Client: 98c4d4c594edd2b289cfc34a8928653e1dab7adf
@@ -77,6 +77,6 @@ SPEC CHECKSUMS:
   TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
   YLGIFImage: c0ae132fe80e5282b2762a97d14e23ba71a748ae
 
-PODFILE CHECKSUM: e6b5058d676bdce0f71a14c598867925823facfa
+PODFILE CHECKSUM: 851f194070d9160174fd5cee4a498fb138a84e03
 
 COCOAPODS: 1.0.1

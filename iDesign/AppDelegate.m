@@ -11,7 +11,10 @@
 #import "YPTabBarViewController.h"
 #import "YPWelcomeViewController.h"
 
-#import <Flurry.h>
+#import <Bugly/Bugly.h>
+
+
+#define BUGLY_APP_ID @"900052321"
 
 @interface AppDelegate ()
 
@@ -44,11 +47,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    // 添加Crash检测
+    [self setupBugly];
+    
+    
     _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     _window.backgroundColor = [UIColor whiteColor];
     _window.rootViewController = [[YPTabBarViewController alloc] init];
-    
-    [Flurry startSession:@"9SPXFPCYKNYKFWXYNMQS"];
     [_window makeKeyAndVisible];
     
     
@@ -57,7 +62,33 @@
     return YES;
 }
 
+- (void)setupBugly
+{
+    
+    BuglyConfig * config       = [[BuglyConfig alloc] init];
+    config.reportLogLevel      = BuglyLogLevelWarn;
+    config.blockMonitorEnable  = YES;
+    config.blockMonitorTimeout = 1.5;
+    config.channel             = @"Bugly";
+    
+#if DEBUG
+    config.debugMode           = YES;
+#endif
+    
+    [Bugly startWithAppId:BUGLY_APP_ID
+#if DEBUG
+        developmentDevice:YES
+#endif
+                   config:config];
+    
+    // Set the customizd tag thats config in your APP registerd on the  bugly.qq.com
+    // [Bugly setTag:1799];
+    
+    [Bugly setUserIdentifier:[NSString stringWithFormat:@"User: %@", [UIDevice currentDevice].name]];
+    
+    [Bugly setUserValue:[NSProcessInfo processInfo].processName forKey:@"Process"];
 
+}
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {

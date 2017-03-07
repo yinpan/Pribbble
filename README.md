@@ -1,6 +1,6 @@
 # Pribbble
 
-Pribbble  is a beautiful Dribbble client for iphone. Connet to you Dribbble account and browse through shots and player profile.
+Pribbble is a beautiful Dribbble client for iphone. Connet to you Dribbble account and browse through shots and player profile.
 
 
 

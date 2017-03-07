@@ -113,6 +113,7 @@
 /* Begin PBXFileReference section */
 		43FFC0017A51A95B4171DB6E /* libPods-iDesign.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iDesign.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C1E4ED03AC82638CA8B60F0 /* Pods-iDesign.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDesign.release.xcconfig"; path = "Pods/Target Support Files/Pods-iDesign/Pods-iDesign.release.xcconfig"; sourceTree = "<group>"; };
+		B06D36E91D87A5EF0018D5AB /* iDesign.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iDesign.entitlements; sourceTree = "<group>"; };
 		BC0005661C8BFA8800F7FB32 /* YPApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPApiClient.h; sourceTree = "<group>"; };
 		BC0005671C8BFA8800F7FB32 /* YPApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPApiClient.m; sourceTree = "<group>"; };
 		BC00056B1C8C1B2400F7FB32 /* debuts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = debuts.png; sourceTree = "<group>"; };
@@ -361,6 +362,7 @@
 		BC2FC6001C7F052D00F7598A /* iDesign */ = {
 			isa = PBXGroup;
 			children = (
+				B06D36E91D87A5EF0018D5AB /* iDesign.entitlements */,
 				BC2FC6451C7F072400F7598A /* AppDelegate */,
 				BC2FC6271C7F071400F7598A /* Interface */,
 				BC2FC6371C7F071400F7598A /* Utils */,
@@ -784,6 +786,11 @@
 					BC2FC5FD1C7F052D00F7598A = {
 						CreatedOnToolsVersion = 6.4;
 						DevelopmentTeam = XS7T2E96K5;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					BC2FC6161C7F052D00F7598A = {
 						CreatedOnToolsVersion = 6.4;
@@ -1102,6 +1109,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_ENTITLEMENTS = iDesign/iDesign.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iDesign/IDesign-PrefixHeader.pch";
@@ -1122,6 +1130,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_ENTITLEMENTS = iDesign/iDesign.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iDesign/IDesign-PrefixHeader.pch";

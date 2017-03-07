@@ -24,11 +24,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Flurry-iOS-SDK.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>JSONModel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -77,17 +72,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>372DF4E099A87FBEA03D5CF5150953A5</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>410B25DF16EA5C5B3E2698F74F9625FB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>448D2B191B8BB84E2D28E58037C018DC</key>
+		<key>4D199AA521BA5A8B12C30C3A65DD6F7D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -97,12 +87,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8900EA73366A6B82B4D7964E31FDE846</key>
+		<key>8953248EFA2DC2580286C76A7B58C8EB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8953248EFA2DC2580286C76A7B58C8EB</key>
+		<key>8ABCCB5525833EA0DE90FED0D6465383</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>934DB679B716C50A0D151A0614DCDB04</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -112,22 +107,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BFE9ED56020E31B07B7E0BDBFE0C4BE8</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>CF50311F05DE9935BF75D9E78565F095</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D079C0B8D193CBDF60F39822F384E43F</key>
+		<key>AED430810C59E34E91AE175A5C064965</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>DA1A7295DF2A99609DA0EEBF5E83233D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DA92439C85F10DF36CF36C9E91411872</key>
 		<dict>
 			<key>primary</key>
 			<true/>
