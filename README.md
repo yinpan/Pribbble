@@ -6,11 +6,6 @@ Pribbble is a beautiful Dribbble client for iphone. Connet to you Dribbble accou
 
 ## Screenshot
 
-## ![](http://7xs2m0.com1.z0.glb.clouddn.com/screenshot83.PNG)
+## ![Pribbble](./design/pribbble.jpg)
 
-![](http://7xs2m0.com1.z0.glb.clouddn.com/screenshot84.PNG)
-
-![](http://7xs2m0.com1.z0.glb.clouddn.com/screenshot80.PNG)
-
-![](http://7xs2m0.com1.z0.glb.clouddn.com/screenshot76.PNG)
 
